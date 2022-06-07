@@ -63,9 +63,39 @@ namespace FileBrowser.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1081856_200 {
+            get {
+                object obj = ResourceManager.GetObject("1081856-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _133028_200 {
             get {
                 object obj = ResourceManager.GetObject("133028-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_user_login_icon_3057_thumb {
+            get {
+                object obj = ResourceManager.GetObject("free-user-login-icon-3057-thumb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_Security_Password_2 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-Security-Password-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

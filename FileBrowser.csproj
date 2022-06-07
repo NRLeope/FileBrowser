@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\133028-200.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1081856-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Security-Password-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-user-login-icon-3057-thumb.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
