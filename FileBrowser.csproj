@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileBrowser2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowser2.Designer.cs">
+      <DependentUpon>FileBrowser2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FileBrowser2.resx">
+      <DependentUpon>FileBrowser2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +92,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\133028-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1081856-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Security-Password-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-user-login-icon-3057-thumb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
