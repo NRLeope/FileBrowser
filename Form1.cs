@@ -48,15 +48,11 @@ namespace FileBrowser
                 if(dt.Rows.Count==1)
                 {
                     ut = dt.Rows[0][0].ToString();
-                    if(ut=="admin")
+                    if(ut=="admin" || ut == "user")
                     {
                         FileBrowser2 FRM = new FileBrowser2();
                         FRM.Show();
                         this.Hide();
-                    }
-                    else if(ut=="user")
-                    {
-
                     }
                 }
                 else 
